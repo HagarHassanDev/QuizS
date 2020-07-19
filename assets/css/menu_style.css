@@ -1,0 +1,59 @@
+/*Sidbar*/
+
+ul
+{
+    padding: 0;
+}
+
+.sidebar_nav
+{
+  
+  min-width: 60px;
+    max-width: 80px;
+    height: 100%;
+  /*  background-color: #223857;*/
+    
+    
+    background-color:#2d7281;    /*    b1c2d3;*/
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+}
+
+.sidebar_nav li
+{
+    padding: 50px 24px;
+}
+
+.sidebar_nav li a
+{
+    text-decoration: none;
+    color: #959595;
+    text-align: center;
+    padding: 10px !important;
+ 
+}
+
+.sidebar_nav li a:hover
+{
+    color: #fff;
+}
+
+.sidebar_nav li a i
+{
+    margin-right:  0;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.sidebar_nav li a i:hover
+{
+    color: #fff;
+}
+
+
+
+
+/*End side bar*/ 

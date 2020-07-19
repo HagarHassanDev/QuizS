@@ -1,0 +1,102 @@
+
+
+div.questionsResult  {
+    background-color: #fff;
+    color: #393A68;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    border-bottom:7px solid #F7F6F6;
+    margin-top: 20px;
+}
+
+div.questionResult-header {
+    text-align: left;
+    font-size: 12px;
+
+
+
+}
+
+div.questionResult-num {
+    display: inline-block;
+    margin: 8px;
+    padding : 2px 4px ; 
+    border: 1px solid #F2F2F2;
+    broder-radius: 4px;
+    font-size: 12px;
+
+}
+
+
+.questionResult-divider{
+    position: relative;
+    margin-bottom: 24px;
+    padding-top: 12px;
+    border-bottom: 1px solid #D8D8D8;
+    clear: both;
+}
+
+
+.divider-text {
+    position: absolute;
+    left: 10px;
+    top:1px;
+    font-size: 11px;
+    padding:2px 4px;
+    background-color: #fff;
+}
+
+.options-holder{
+    font-size: 14px;
+    
+}
+
+div.options {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 12px;
+
+}
+
+.options .option-maker {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border-radius:50%;
+    background-color: #D8D8D8;
+    margin-left: 12px;
+    margin-right: 8px;
+    display: inline-block;
+        margin-right: 30px;
+
+}
+
+input[type=radio] {
+        /*visibility: hidden;
+
+    position: absolute;*/
+    margin-top:3px;
+}
+
+
+.save-btn {
+    margin: 0px !important;
+    float: right;
+    width: 30%;
+    height: 48px;
+    box-shadow:  4px 0 rgba(0,0,0,0.15), 0 4px 0 #138496, 0 4px 6px rgba(0,0,0,0.45);
+}
+
+.save-btn:hover {
+    cursor: pointer;
+    border:none;
+    box-shadow: none; 
+    transition: all 0.2s;
+    height: 44px;
+    padding: 0 12px;
+    border-radius: 4px;
+}
+
+
+
+

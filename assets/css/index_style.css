@@ -1,0 +1,305 @@
+/**Nav Color = #38889a   #2d7281 **/
+
+
+
+/* Quiz_add */
+
+
+.left{
+    
+    
+    
+}
+
+
+.answers{
+   background-color: #fff!important; 
+}
+.log-out
+{
+    background-color: tomato;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    
+    width: 10% ;
+}
+
+#table { border-top: 4px solid #17a2b8;   border-top-left-radius: 50% !important;
+    border-top-right-radius: 50% !important; text-align: center;}
+
+ #table td  , #table th , #table tr {
+    border: solid 1px #17a2b8 ;
+ 
+}
+
+#student-label
+{
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    margin-right: 0px !important;
+   /* border:solid 1px #17a2b8;*/
+    border-right: 0px !important ;
+ 
+  box-shadow:   0 1px 3px 0 rgba(0,0,0,0.1), 0 4px 6px 0 rgba(0,0,0,0.11);
+    background-color: #f8f8f8 ;
+        background-color: #fff;
+    border-top: 4px solid #17a2b8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#student-label .nav-tabs
+{
+    border-bottom: none;
+    margin-top: 20px;
+}
+
+.qi-btn {
+margin:0 5%;
+    width:40% ;
+    margin-top: 50px;
+}
+.qi-btn button {
+    width:100% ;
+    height: 10% ;
+    font-size: 30px; 
+    /*border-top-left-radius: 50% ;
+    border-bottom-left-radius: 50% ;*/
+    width: 100% ;
+  
+background-color: #17a2b8;
+}
+
+
+a{text-decoration: none!important ;}
+.nav-tabs .nav-link
+{
+    font-size: 20px;
+}
+#student-label h1
+{
+    padding-top: 50px;
+    
+}
+.nav-tabs .nav-link.active{/*border:solid 1px #17a2b8; border-bottom: 0px ;*/ border-color: #17a2b8 #17a2b8 #fff;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.11), 0 1px 3px 0 rgba(0,0,0,0.1); }
+
+
+
+
+
+
+/*=========================*/
+
+
+.student-profile{
+    background-color: #fff;
+    border-top: 4px solid #17a2b8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#student-label
+{
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+  box-shadow:   0 1px 3px 0 rgba(0,0,0,0.1), 0 4px 6px 0 rgba(0,0,0,0.11);
+}
+
+#student-label .nav-tabs
+{
+    border-bottom: none;
+    margin-top: 20px;
+}
+.nav-tabs .nav-link
+{
+    font-size: 20px;
+    
+}
+
+
+
+#student-label h1
+{
+    padding-top: 50px;
+}
+
+span.student-label{
+    background-color: #17a2b8 ;
+    text-transform: uppercase;
+    padding: 0 4px 1px 4px;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 11px;
+    
+}
+ 
+.btn-edit-profile { border: 2px solid #f2f2f2; border-radius: 5px; padding: 6px 10px; font-size: 14px; box-shadow: 0 4px 6px 0 rgba(0,0,0,0.11), 0 1px 3px 0 rgba(0,0,0,0.1); background-color: #fff;}
+
+
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-color: #fff;
+box-shadow: 0 4px 6px 0 rgba(0,0,0,0.11), 0 1px 3px 0 rgba(0,0,0,0.1);    
+}
+
+
+.log-out a
+{
+    color: #fff !important;
+}
+.answers
+{
+    background-color: rgb(244, 245, 247);
+    padding: 20px;
+}
+
+
+
+body
+{
+    font-family: "segoe ui light";
+    padding-top: 55px;
+    background-color: #fff;
+}
+.signBtn
+{
+    padding: .175rem .75rem;
+    margin-left: 20px;
+}
+
+
+.modal-backdrop{  /* to remove the blur from the modal */
+    z-index:inherit;
+}
+
+.modal-footer button a {
+    
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.navbar {
+box-shadow: 0 4px 6px 0 rgba(0,0,0,0.11), 0 1px 3px 0 rgba(0,0,0,0.1);    
+    
+}
+.navbar a.navbar-brand{
+    color:#fff;
+    font-weight: bold;
+}
+
+.nav-back {
+    background-color: #0f6775;
+    color: #fff !important;
+    
+}
+
+
+.email-txt {color: black; }
+.btn-outline-info {
+    color:#fff!important;
+    
+}
+#gallery
+{
+    height: 600px;
+}
+#gallery img
+{
+    height: 100% !important;
+}
+#gallery .carousel-indicators li
+{
+    height: 30px;
+    border-radius: 50%;
+}
+#services
+{padding: 50px 0px;}
+#services img
+{
+    height: 250px ; 
+}
+
+
+#work .circle
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid 4px #b0bec5;
+    margin: auto;
+}
+#work .line
+{
+    border-left: solid 2px #eceff1;
+    width: 1px;
+    height: 300px;
+    margin: auto;
+}
+
+
+
+#testimonials
+{
+    width: auto;
+    /*background-color: #f6f7fa;*/
+    background-color: #0f6775;
+    color: #fff !important;
+    
+}
+
+
+
+
+
+.arrow-down {
+    width: 0; 
+    height: 0;
+    border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-top: 14px solid #fff;
+    margin: auto;
+    
+}
+
+#testimonials .carousel-caption
+{
+    position: static;
+}
+#testimonials .carousel-caption q
+{
+    /*color: #212529;*/
+    color: #fff ;
+    
+}
+
+#testimonials .carousel-caption h5
+{
+    /*color:#607d8b;*/
+    color:#7f2118;
+    
+}
+#testimonials .carousel-indicators li
+{
+    text-indent: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #17a2b8 ;
+}
+
+#testimonials .carousel-indicators
+{
+    position: static;
+}
